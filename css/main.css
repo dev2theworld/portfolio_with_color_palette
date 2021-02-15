@@ -4,4 +4,22 @@
   margin: 0;
   padding: 0;
 }
+
+h1, h2, h3, h4, h5, h6, strong {
+  color: #000;
+}
+
+p, li, span, label, input, textarea {
+  color: #fff;
+}
+
+.s1 {
+  background-color: #eaeaea;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.s2 {
+  background-color: #fff;
+  border-bottom: 1px solid #c1c1c1;
+}
 /*# sourceMappingURL=main.css.map */
