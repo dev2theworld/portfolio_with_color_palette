@@ -20,6 +20,39 @@
 
   .nav-wrapper {
     grid-area: nav-wrapper;
+    background-color: $primary-color;
+    border-bottom: 1px solid $border-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+
+    .dots-wrapper {
+      display: flex;
+      padding: 10px;
+
+      .browser-dots {
+        background-color: greenyellow;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        margin: 5px;
+
+        box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+      }
+
+      #dot-1 {
+        background-color: #fc6058;
+      }
+
+      #dot-2 {
+        background-color: #fec02f;
+      }
+
+      #dot-3 {
+        background-color: #2aca3e;
+      }
+    }
   }
 
   .left-wrapper {
