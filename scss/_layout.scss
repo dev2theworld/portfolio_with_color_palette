@@ -1,0 +1,32 @@
+.greeting-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.intro-wrapper {
+  background-color: $secondary-color;
+  border: 1px solid $border-color;
+  border-radius: 5px 5px 0 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3em 30em;
+  grid-template-areas: 
+    'nav-wrapper nav-wrapper'
+    'left-wrapper right-wrapper'
+  ;
+
+  .nav-wrapper {
+    grid-area: nav-wrapper;
+  }
+
+  .left-wrapper {
+    grid-area: left-wrapper;
+  }
+
+  .right-wrapper {
+    grid-area: right-wrapper;
+  }
+}

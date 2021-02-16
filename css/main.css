@@ -60,4 +60,49 @@ ul {
   width: 1200px;
   margin: auto;
 }
+
+.greeting-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+}
+
+.intro-wrapper {
+  background-color: #fff;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px 5px 0 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 3em 30em;
+      grid-template-rows: 3em 30em;
+      grid-template-areas: 'nav-wrapper nav-wrapper' 'left-wrapper right-wrapper';
+}
+
+.intro-wrapper .nav-wrapper {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: nav-wrapper;
+}
+
+.intro-wrapper .left-wrapper {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: left-wrapper;
+}
+
+.intro-wrapper .right-wrapper {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: right-wrapper;
+}
 /*# sourceMappingURL=main.css.map */
