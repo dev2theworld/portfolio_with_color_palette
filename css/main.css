@@ -13,6 +13,39 @@ p, li, span, label, input, textarea {
   color: #fff;
 }
 
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+ul {
+  list-style: none;
+}
+
 .s1 {
   background-color: #eaeaea;
   border-bottom: 1px solid #c1c1c1;
@@ -21,5 +54,10 @@ p, li, span, label, input, textarea {
 .s2 {
   background-color: #fff;
   border-bottom: 1px solid #c1c1c1;
+}
+
+.main-container {
+  width: 1200px;
+  margin: auto;
 }
 /*# sourceMappingURL=main.css.map */
