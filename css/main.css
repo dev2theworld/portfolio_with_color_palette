@@ -135,6 +135,17 @@ ul {
   background-color: #2aca3e;
 }
 
+.intro-wrapper .nav-wrapper #navigation {
+  margin: 0;
+  padding: 10px;
+}
+
+.intro-wrapper .nav-wrapper #navigation li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .intro-wrapper .left-wrapper {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
