@@ -9,10 +9,6 @@ h1, h2, h3, h4, h5, h6, strong {
   color: #000;
 }
 
-p, li, span, label, input, textarea {
-  color: #fff;
-}
-
 h1 {
   font-size: 56px;
 }
@@ -82,8 +78,6 @@ ul {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 3em 30em;
-      grid-template-rows: 3em 30em;
       grid-template-areas: 'nav-wrapper nav-wrapper' 'left-wrapper right-wrapper';
 }
 
@@ -150,6 +144,71 @@ ul {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: left-wrapper;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.intro-wrapper .left-wrapper #profile-pic {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #c1c1c1;
+}
+
+.intro-wrapper .left-wrapper h5 {
+  text-align: center;
+}
+
+.intro-wrapper .left-wrapper .theme-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+}
+
+.intro-wrapper .left-wrapper .theme-options .theme-dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: greenyellow;
+  -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+          box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  margin: 5px;
+  border: 2px solid #24292e;
+}
+
+.intro-wrapper .left-wrapper .theme-options .theme-dot:hover {
+  border-width: 5px;
+}
+
+.intro-wrapper .left-wrapper .theme-options #light-mode {
+  background-color: #fff;
+}
+
+.intro-wrapper .left-wrapper .theme-options #blue-mode {
+  background-color: #192734;
+}
+
+.intro-wrapper .left-wrapper .theme-options #green-mode {
+  background-color: #78866b;
+}
+
+.intro-wrapper .left-wrapper .theme-options #purple-mode {
+  background-color: #7e4c74;
+}
+
+.intro-wrapper .left-wrapper #settings-note {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .intro-wrapper .right-wrapper {
