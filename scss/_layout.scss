@@ -131,5 +131,52 @@
 
   .right-wrapper {
     grid-area: right-wrapper;
+    display: grid;
+    align-content: center;
+
+    #preview-shadow {
+      background-color: $preview-shadow;
+      width: 300px;
+      height: 150px;
+      padding-left: 30px;
+      padding-top: 30px;
+
+      #preview {
+        width: 300px;
+        border: 1.5px solid $intro-border;
+        background-color: $preview-background;
+        padding: 15px;
+        position: relative;
+  
+        .corner {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          border: 1px solid $intro-border;
+          background-color: $secondary-color;
+          position: absolute;
+        }
+  
+        #corner-top-left {
+          top: -5px;
+          left: -5px;
+        }
+  
+        #corner-top-right {
+          top: -5px;
+          right: -5px;
+        }
+  
+        #corner-bottom-left {
+          bottom: -5px;
+          left: -5px;
+        }
+  
+        #corner-bottom-right {
+          bottom: -5px;
+          right: -5px;
+        }
+      }
+    }
   }
 }
