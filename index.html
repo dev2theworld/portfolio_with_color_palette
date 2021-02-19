@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="./css/main-purple.css" id="theme-style">
+  <link rel="stylesheet" href="" id="theme-style">
   <title>Portfolio</title>
 </head>
 <body>
@@ -29,10 +29,10 @@
           <img id="profile-pic" src="./img/pic.jpg" alt="">
           <h5>Personalize Theme</h5>
           <div class="theme-options">
-            <div class="theme-dot" id="light-mode"></div>
-            <div class="theme-dot" id="blue-mode"></div>
-            <div class="theme-dot" id="green-mode"></div>
-            <div class="theme-dot" id="purple-mode"></div>
+            <div data-mode="light" class="theme-dot" id="light-mode"></div>
+            <div data-mode="blue" class="theme-dot" id="blue-mode"></div>
+            <div data-mode="green" class="theme-dot" id="green-mode"></div>
+            <div data-mode="purple" class="theme-dot" id="purple-mode"></div>
           </div>
           <p id="settings-note">*Theme settings will be saved for <br>your next visit</p>
         </div>
@@ -70,5 +70,7 @@
       Contact
     </div>
   </section>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
