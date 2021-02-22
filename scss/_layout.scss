@@ -180,3 +180,48 @@
     }
   }
 }
+
+.about-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 100px;
+  padding: 50px 0;
+
+  .about-me {
+
+    h4 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    hr {
+      margin: 20px 0;
+    }
+
+    #skills {
+      display: flex;
+      margin-top: 20px;
+      padding: 20px;
+      justify-content: space-evenly;
+      background-color: $preview-shadow;
+    }
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+      margin-bottom: 2rem;
+    }
+
+    a {
+      padding: 0.5rem;
+    }
+  }
+}
