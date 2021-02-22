@@ -11,7 +11,7 @@ body * {
 }
 
 body {
-  background-color: #eaeaea;
+  background-color: gray;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -51,12 +51,7 @@ ul {
   list-style: none;
 }
 
-.s1 {
-  background-color: #eaeaea;
-  border-bottom: 1px solid #c1c1c1;
-}
-
-.s2 {
+.sections {
   background-color: #fff;
   border-bottom: 1px solid #c1c1c1;
 }
@@ -67,6 +62,7 @@ ul {
 }
 
 .intro-wrapper {
+  margin-top: 4rem;
   background-color: #fff;
   border: 1px solid #c1c1c1;
   border-radius: 5px 5px 0 0;
@@ -285,7 +281,18 @@ ul {
   -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 100px;
-  padding: 50px 0;
+  padding: 50px;
+}
+
+.about-wrapper .about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 3rem;
 }
 
 .about-wrapper .about-me h4 {
@@ -320,12 +327,7 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-left: 3rem;
 }
 
 .about-wrapper .social-links h3 {

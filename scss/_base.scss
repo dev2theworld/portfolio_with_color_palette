@@ -3,7 +3,7 @@ body * {
 }
 
 body {
-  background-color: $primary-color;
+  background-color: $body-background;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -26,12 +26,7 @@ ul {
   list-style: none;
 }
 
-.s1 {
-  background-color: $primary-color;
-  border-bottom: 1px solid $border-color;
-}
-
-.s2 {
+.sections {
   background-color: $secondary-color;
   border-bottom: 1px solid $border-color;
 }
