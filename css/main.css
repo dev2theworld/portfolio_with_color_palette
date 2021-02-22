@@ -11,7 +11,7 @@ body * {
 }
 
 body {
-  background-color: gray;
+  background-color: lightgray;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -59,6 +59,8 @@ ul {
 .main-container {
   width: 1200px;
   margin: auto;
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .intro-wrapper {
