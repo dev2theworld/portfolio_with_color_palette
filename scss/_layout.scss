@@ -230,3 +230,34 @@
     }
   }
 }
+
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 6rem;
+
+  .portfolio-header {
+    margin-bottom: 2rem;
+  }
+
+  .portfolio-projects {
+    display: flex;
+
+    .project {
+      background-color: $primary-color;
+      width: 300px;
+      margin: 0 2rem;
+      padding: 0 1rem 1rem 1rem;
+
+      h4 {
+        margin-bottom: 1rem;
+      }
+
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
