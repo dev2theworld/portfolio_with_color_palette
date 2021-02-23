@@ -383,6 +383,55 @@ ul {
 }
 
 .contact-wrapper {
-  margin-bottom: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+}
+
+.contact-wrapper .contact-header {
+  margin-bottom: 2rem;
+}
+
+.contact-wrapper .form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-wrapper .form-wrapper label {
+  font-weight: bold;
+}
+
+.contact-wrapper .form-wrapper input {
+  width: 400px;
+  margin: 0.75rem 0;
+}
+
+.contact-wrapper .form-wrapper textarea {
+  width: 400px;
+  height: 150px;
+  margin: 0.75rem 0;
+}
+
+.contact-wrapper .form-wrapper #submit-btn {
+  padding: 0.5rem;
 }
 /*# sourceMappingURL=main.css.map */
