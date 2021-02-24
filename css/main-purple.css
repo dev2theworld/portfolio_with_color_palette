@@ -84,6 +84,10 @@
   padding: 2rem 0 0;
 }
 
+.intro-wrapper .greeting-wrapper h1 {
+  color: #fff;
+}
+
 .intro-wrapper .left-wrapper {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
@@ -104,6 +108,11 @@
 
 .intro-wrapper .left-wrapper h5 {
   text-align: center;
+  color: #fff;
+}
+
+.intro-wrapper .left-wrapper p {
+  color: #fff;
 }
 
 .intro-wrapper .left-wrapper .theme-options {
@@ -133,7 +142,7 @@
 }
 
 .intro-wrapper .left-wrapper .theme-options #light-mode {
-  background-color: #382a3f;
+  background-color: #fff;
 }
 
 .intro-wrapper .left-wrapper .theme-options #blue-mode {
@@ -179,6 +188,14 @@
   background-color: rgba(29, 21, 32, 0.8);
   padding: 15px;
   position: relative;
+}
+
+.intro-wrapper .right-wrapper #preview-shadow #preview h3 {
+  color: #fff;
+}
+
+.intro-wrapper .right-wrapper #preview-shadow #preview p {
+  color: #fff;
 }
 
 .intro-wrapper .right-wrapper #preview-shadow #preview .corner {
@@ -233,10 +250,12 @@
 
 .about-wrapper .about-me h4 {
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .about-wrapper .about-me p {
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .about-wrapper .about-me hr {
@@ -255,6 +274,10 @@
   background-color: #2b202f;
 }
 
+.about-wrapper .about-me #skills ul li {
+  color: #fff;
+}
+
 .about-wrapper .social-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,6 +291,7 @@
 
 .about-wrapper .social-links h3 {
   margin-bottom: 2rem;
+  color: #fff;
 }
 
 .about-wrapper .social-links a {
@@ -296,6 +320,10 @@
   margin-bottom: 2rem;
 }
 
+.portfolio-wrapper .portfolio-header h2 {
+  color: #fff;
+}
+
 .portfolio-wrapper .portfolio-projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,10 +339,12 @@
 
 .portfolio-wrapper .portfolio-projects .project h4 {
   margin-bottom: 1rem;
+  color: #fff;
 }
 
 .portfolio-wrapper .portfolio-projects .project p {
   margin-bottom: 1rem;
+  color: #fff;
 }
 
 .contact-wrapper {
@@ -339,6 +369,10 @@
   margin-bottom: 2rem;
 }
 
+.contact-wrapper .contact-header h2 {
+  color: #fff;
+}
+
 .contact-wrapper .form-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -354,6 +388,7 @@
 
 .contact-wrapper .form-wrapper label {
   font-weight: bold;
+  color: #fff;
 }
 
 .contact-wrapper .form-wrapper input {

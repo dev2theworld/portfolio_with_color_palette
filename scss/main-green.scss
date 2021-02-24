@@ -80,6 +80,10 @@ $preview-shadow: #2a2f25;
     align-items: center;
     justify-content: center;
     padding: 2rem 0 0;
+    
+    h1 {
+      color: $primary-text;
+    }
   }
 
   .left-wrapper {
@@ -99,6 +103,11 @@ $preview-shadow: #2a2f25;
 
     h5 {
       text-align: center;
+      color: $primary-text;
+    }
+
+    p {
+      color: $primary-text;
     }
 
     .theme-options {
@@ -122,7 +131,7 @@ $preview-shadow: #2a2f25;
       }
 
       #light-mode {
-        background-color: $secondary-color;
+        background-color: #fff;
       }
 
       #blue-mode {
@@ -164,6 +173,14 @@ $preview-shadow: #2a2f25;
         background-color: $preview-background;
         padding: 15px;
         position: relative;
+
+        h3 {
+          color: $primary-text;
+        }
+
+        p {
+          color: $primary-text;
+        }
   
         .corner {
           width: 10px;
@@ -212,10 +229,12 @@ $preview-shadow: #2a2f25;
 
     h4 {
       margin-bottom: 20px;
+      color: $primary-text;
     }
 
     p {
       margin-bottom: 10px;
+      color: $primary-text;
     }
 
     hr {
@@ -228,6 +247,13 @@ $preview-shadow: #2a2f25;
       padding: 20px;
       justify-content: space-evenly;
       background-color: $preview-shadow;
+
+      ul {
+
+        li {
+          color: $primary-text;
+        }
+      }
     }
   }
 
@@ -238,6 +264,7 @@ $preview-shadow: #2a2f25;
 
     h3 {
       margin-bottom: 2rem;
+      color: $primary-text;
     }
 
     a {
@@ -256,6 +283,10 @@ $preview-shadow: #2a2f25;
 
   .portfolio-header {
     margin-bottom: 2rem;
+
+    h2 {
+      color: $primary-text;
+    }
   }
 
   .portfolio-projects {
@@ -269,10 +300,12 @@ $preview-shadow: #2a2f25;
 
       h4 {
         margin-bottom: 1rem;
+        color: $primary-text;
       }
 
       p {
         margin-bottom: 1rem;
+        color: $primary-text;
       }
     }
   }
@@ -288,6 +321,10 @@ $preview-shadow: #2a2f25;
 
   .contact-header {
     margin-bottom: 2rem;
+
+    h2 {
+      color: $primary-text;
+    }
   }
 
   .form-wrapper {
@@ -297,6 +334,7 @@ $preview-shadow: #2a2f25;
 
     label {
       font-weight: bold;
+      color: $primary-text;
     }
 
     input {
