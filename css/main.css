@@ -61,6 +61,7 @@ ul {
   margin: auto;
   -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
           box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 4rem;
 }
 
 .intro-wrapper {
@@ -433,5 +434,11 @@ ul {
 
 .contact-wrapper .form-wrapper #submit-btn {
   padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  padding: 0.5rem;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
